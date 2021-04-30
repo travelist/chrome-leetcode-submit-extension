@@ -1,2 +1,4 @@
-# leetcode-submit-chrome-extention
+# Chrome Leetcode Submit Extention
+
 Chrome LeetCode Submit Extention
+
