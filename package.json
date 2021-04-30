@@ -1,0 +1,8 @@
+{
+  "name": "chrome-leetcode-submit-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:travelist/chrome-leetcode-submit-extension.git",
+  "author": "Komei <komei.t.f@gmail.com>",
+  "license": "MIT"
+}
