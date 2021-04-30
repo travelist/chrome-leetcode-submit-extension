@@ -2,3 +2,6 @@
 
 Chrome LeetCode Submit Extention
 
+# License
+
+MIT
