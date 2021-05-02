@@ -9,6 +9,11 @@ Providing keyboard shortcuts for Leetcode
 | `Ctrl + Shift + Return` | Submit |
 | `Ctrl + Shift + '` | Run Code with Example Cases |
 
+Pleaes open a Github issue when some of the avobe feature does not work for you.
+
+This plugin deeply relies on the HTML structure of the leetcode website, 
+therefore, the above commands can be broken if the website is updated.
+
 # License
 
 MIT
