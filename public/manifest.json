@@ -1,0 +1,18 @@
+{
+    "name": "LeetCode Submit Extension",
+    "version": "2.0.0",
+    "description": "keyboard shortcuts for LeetCode",
+    "homepage_url": "https://github.com/travelist/chrome-leetcode-submit-extension",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": [
+          "*://leetcode.com/*"
+        ],
+        "js": [
+          "index.js"
+        ]
+      }
+    ]
+  }
+  
