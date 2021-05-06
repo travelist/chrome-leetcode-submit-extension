@@ -33,26 +33,25 @@ jobs:
             - chrome-leetcode-submit-extension.zip
           root: ~/chrome-leetcode-submit-extension
 
-# orbs:
-  # cws: sugarshin/chrome-webstore@0.0.3
+orbs:
+  cws: sugarshin/chrome-webstore@0.0.3
 
 workflows:
   build_publish:
     jobs:
       - build
-#       - cws/upload:
-#           attach-workspace: true
-#           auto-publish: true
-#           checkout: false
-#           executor: nodejs
-#           extension-id: pdeaikmjefgminiagmbdhjlmoaoobbjc
-#           source: chrome-leetcode-submit-extension.zip
-#           workspace-root: ~/chrome-leetcode-submit-extension
-#           requires:
-#             - build
-#           # Only run this job on git tag pushes
-#           filters:
-#             branches:
-#               ignore: /.*/
-#             tags:
-#               only: /^v.*/
+      - cws/upload:
+          attach-workspace: true
+          auto-publish: true
+          checkout: false
+          executor: nodejs
+          extension-id: kdjjgoaelbkphahnengiibkmoofgicoa
+          source: chrome-leetcode-submit-extension.zip
+          workspace-root: ~/chrome-leetcode-submit-extension
+          requires:
+            - build
+          # Only run this job on git tag pushes
+          filters:
+            branches:
+              only:
+                release

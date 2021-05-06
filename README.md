@@ -1,6 +1,8 @@
-# Chrome Leetcode Submit Extention 
+# Chrome Leetcode Submit Extention
 
 Providing keyboard shortcuts for Leetcode
+
+[Downlaod at Chrome Webstore](https://chrome.google.com/webstore/detail/leetcode-submit-extension/kdjjgoaelbkphahnengiibkmoofgicoa)
 
 # Shortcuts
 
