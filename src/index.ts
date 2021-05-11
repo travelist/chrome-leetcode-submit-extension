@@ -21,7 +21,8 @@ const main = async () => {
   window.addEventListener(
     'keydown',
     (event: KeyboardEvent) => {
-      if ((!event.ctrlKey && !event.metaKey) || !event.shiftKey) return
+      if ((!event.ctrlKey && !event.metaKey)) return
+      if (event.code === 'Quote' && !event.shiftKey) return
       if (window.location.pathname.includes('contest')) {
         contestActions.get(event.code)?.run()
       } else {

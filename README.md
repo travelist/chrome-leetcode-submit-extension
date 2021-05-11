@@ -8,7 +8,7 @@ Providing keyboard shortcuts for Leetcode
 
 | key | action |
 |-----|--------|
-| `Ctrl + Shift + Return` | Submit |
+| `Ctrl + Return` | Submit |
 | `Ctrl + Shift + '` | Run Code with Example Cases |
 
 Pleaes open a Github issue when some of the avobe features do not work for you.
